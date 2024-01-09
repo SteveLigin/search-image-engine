@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*, ::after, ::before, ::placeholder {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    background:#39297b;
+    color:#fff;
+}
+
+h1 {
+    text-align:center;
+    margin:7rem auto 3rem;
+    font-weight:600;
+}
+
+form {
+    width:90%;
+    max-width:600px;
+    margin:auto;
+    height:80px;
+    background:#434989;
+    display:flex;
+    align-items: center;
+    border-radius: 0.8rem;;
+}
+form input {
+    flex:1;
+    height:100%;
+    border:0;
+    outline:0;
+    background: transparent;
+    color:#fff;
+    font-size:1.1rem;
+    padding:0 2.5rem;
+}
+
+form button {
+    padding:0 3.5rem;
+    height:100%;
+    background: #ff3929;
+    color:#fff;
+    font-size:1.1rem;
+    border:0;
+    outline:0;
+    border-top-right-radius:0.8rem;
+    border-bottom-right-radius:0.8rem;
+    cursor:pointer;
+}
+
+::placeholder {
+    color:#fff;
+    font-size:1rem;
+}
+
+#show-more-btn {
+    background:#ff3929;
+    color:#fff;
+    border:0;
+    outline:0;
+    padding:0.9rem 1.6rem;
+    border-radius:0.4rem;
+    margin:0.9rem auto 7rem;
+    cursor:pointer;
+    display:none;
+}
+
+#search-result {
+    width:80%;
+    margin:8.5rem auto 4.2rem;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:3.5rem;
+}
+
+#search-result img {
+    width:100%;
+    height:150px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
